@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router(); 
-const { sendOtp, verifyOtp } = require("../controller/otp.controller"); // Import OTP controller
+const { sendOtp, verifyOtp } = require("../controller/otpcontroller"); // Import OTP controller
 
 // Define routes for sending and verifying OTP
 router.post("/send-otp", sendOtp);
